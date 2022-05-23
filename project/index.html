@@ -12,13 +12,19 @@
             <h2 id="header">
                 Metric/Imperial unit conversion
             </h2>
-            <input type="text" id="mainCalc" class="inputNum">
+            <input type="number" min="0" max="100" id="mainCalc" class="inputNum">
 
             <div id="downWardBlock">
                 <h5 class="bottomSubHead" id="firstSubHead">
                     Length (Meter/feet)
                 </h5>
-                <p class="bottomText"></p>
+                <p class="bottomText">
+                    <span id="numberMeter">0</span> meters = <span id="meters">
+                        0.000
+                    </span>
+                    feet | <span id="secondNum">0</span> feet = 
+                    <span id="feetNumber">0.000</span> meters
+                </p>
                 <p class="bottomText"></p>
                 <span></span>
                 <p class="bottomText"></p>

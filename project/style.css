@@ -55,11 +55,23 @@ body {
 
 #mainCalc {
   text-align: center;
-  padding-top: 45px;
   margin-top: 30px;
   border: none;
   font-weight: 500;
   font-size: 17px;
-  width: 40vw;
   box-shadow: 0 0 20px rgba(201, 95, 95, 0.25);
+  text-decoration: none;
+  padding: 10px;
+  width: 11rem;
+  height: 4rem;
+}
+
+.bottomText {
+  position: relative;
+  top: 10px;
+}
+
+#mainCalc::-webkit-inner-spin-button,
+#mainCalc::-webkit-outer-spin-button {
+  -webkit-appearance: none;
 }/*# sourceMappingURL=style.css.map */
