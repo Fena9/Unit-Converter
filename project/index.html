@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <section class="main-section">
@@ -25,32 +26,58 @@
                     feet | <span id="secondNum">0</span> feet = 
                     <span id="feetNumber">0.000</span> meters
                 </p>
-                <p class="bottomText"></p>
-                <span></span>
-                <p class="bottomText"></p>
-                <p class="bottomText"></p>
     
                 <h5 class="bottomSubHead" id="secondSubHead">
                     Volume (Liters/Gallons)
                 </h5>
-                <p class="bottomText"></p>
-                <p class="bottomText"></p>
-                <span></span>
-                <p class="bottomText"></p>
-                <p class="bottomText"></p>
+                <p class="bottomText">
+                    <span id="volumeNum">
+                        0
+                    </span>
+                     Liters = 
+                     <span id="liters">
+                        0.000 
+                    </span>
+                    Gallons |
+                    <span id="gallonsNum">
+                        0
+                    </span> 
+                    Gallons = 
+                    <span id="gallons">
+                        0.000
+                    </span>
+                    Liters
+                </p>
+        
     
                 <h5 class="bottomSubHead" id="thirdSubHead">
                     Mass (Kilograms/Pounds)
                 </h5>
-                <p class="bottomText"></p>
-                <p class="bottomText"></p>
-                <span></span>
-                <p class="bottomText"></p>
-                <p class="bottomText"></p>
-        </div>
+                <p class="bottomText">
+                    <span id="kilogramsNum">
+                        0
+                    </span>
+                    Kilograms =
+                    <span id="kilograms">
+                        0.000
+                    </span>
+                    Pounds |
+                    <span id="poundsNum">
+                        0
+                    </span>
+                    Pounds =
+                    <span id="pounds">
+                        0.000
+                    </span>
+                    Kilograms
+                </p>
+            </div>
        
         </div>
     </section>
+        <button id="clear" onclick="refresh()">
+            clear 🗑️ 
+        </button>
     <script src="script.js"></script>
 </body>
 </html>
